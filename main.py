@@ -14,8 +14,8 @@ background = pygame.image.load('back.jpg')
 
 #background sound
 mixer.music.load('background.mp3')
+mixer.music.set_volume(0.2)
 mixer.music.play(-1)
-mixer.music.set_volume(0.6)
 
 # Title and Icon
 pygame.display.set_caption("Rainbow Farts")
